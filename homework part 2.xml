@@ -1,0 +1,77 @@
+<Mall>
+
+	<Store>
+
+		<Clothing-Rack>
+
+			<Clothing>
+
+				<Fabric>
+
+		<Cashier> 
+
+		<Cash-Register>
+
+				<Cash>
+
+		<Group-of-People>
+
+			<Person>
+
+				<Human-Eye>
+
+					<Pupil>
+
+						<Blood-Vessel>
+
+							<Blood-Cells>
+
+								<Chromosomes>
+
+									<Group-of-Atoms>
+
+										<Atoms>
+
+											<Inner-Electrons>
+
+												<Protons-and-Nuetrons>
+
+													<Quarks>
+
+												</Protons-and-Nuetrons>
+
+											</Inner-Electrons>
+
+										</Atoms>
+
+									</Group-of-Atoms>
+
+								</Chromosomes>
+
+							</Blood-Cells> 
+
+						</Blood-Vessel>
+
+					</Pupil>
+
+				</Human-Eye>
+
+			</Person>
+
+		</Group-of-People>
+
+		</Cashier>
+
+			</Cash>
+
+		</Cash-Register>
+
+				</Fabric>
+
+			</Clothing>
+
+		</Clothing-Rack>
+
+	</Store>
+
+</Mall>
