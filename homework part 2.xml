@@ -8,6 +8,12 @@
 
 				<Fabric>
 
+				</Fabric>
+
+			</Clothing>
+
+		</Clothing-Rack>
+				
 		<Cashier> 
 
 		<Cash-Register>
@@ -65,12 +71,6 @@
 			</Cash>
 
 		</Cash-Register>
-
-				</Fabric>
-
-			</Clothing>
-
-		</Clothing-Rack>
 
 	</Store>
 
