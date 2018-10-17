@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<style type="text/css">
+	
+	html,body{
+
+		background-color: #F9B3BB;
+		margin: 0;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+
+	}
+
+	@keyframes twirl{
+		100%{
+			transform: rotate(360deg);
+			transform-origin: top center;
+			animation-timing-function: ease-in-out;
+
+		}
+	}
+
+	#square1{
+		animation: twirl 5s infinite;
+		background-color: #C31B32;
+		opacity: 0.25;
+		width: 25vmin;
+		height:40vmin;
+		animation-delay: 1s;
+	}
+	#square2{
+		animation: twirl 5s infinite;
+		background-color: #C31B32;
+		opacity: 0.25;
+		width: 25vmin;
+		height:40vmin;
+		animation-delay: 2.5s;
+	}
+	#square3{
+		animation: twirl 5s infinite;
+		background-color: #C31B32;
+		opacity: 0.25;
+		width: 25vmin;
+		height:40vmin;
+		animation-delay: 4s;
+	}
+		#square4{
+		animation: twirl 5s infinite;
+		background-color: #C31B32;
+		opacity: 0.25;
+		width: 25vmin;
+		height:40vmin;
+		animation-delay: 5.5s;
+	}
+
+	#square5{
+		animation: twirl 5s infinite;
+		background-color: #C31B32;
+		opacity: 0.25;
+		width: 25vmin;
+		height:40vmin;
+		animation-delay: 7s;
+	}
+
+		#square6{
+		background-color: #C31B32;
+		opacity: 0.25;
+		width: 25vmin;
+		height:40vmin;
+	}
+
+
+	.inner {
+  		position: absolute;
+	}
+
+
+	</style>
+	
+</head>
+<body>
+
+<div class="outer">
+	<div id= "square1" class="inner"></div>
+	<div id= "square2" class="inner"></div>
+	<div id= "square3" class="inner"></div>
+	<div id= "square4" class="inner"></div>
+	<div id= "square5" class="inner"></div>
+	
+</div>	
+
+
+
+</body>
+</html>
