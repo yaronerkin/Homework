@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+
+body {background-color: black;}
+
+	img {
+ 	position: absolute;
+}
+
+    .TV{
+ 	 z-index: 15;
+ 	 visibility: visible;
+}
+
+	.GIF1{
+  	z-index: 1;
+  	left: 80px;
+  	top: 50px;
+  	visibility: hidden;
+
+}
+	.GIF2{
+  	z-index: 2;
+  	left: 80px;
+  	top: 50px;
+  	visibility: hidden;
+
+}
+	.GIF3{
+  	z-index: 3;
+  	left: 100px;
+  	top: 50px;
+  	visibility: hidden;
+
+}
+	.GIF4{
+  	z-index: 4;
+  	left: 80px;
+  	top: 50px;
+  	visibility: hidden;
+}
+	.GIF5{
+  	z-index: 5;
+  	left: 80px;
+  	top: 50px;
+  	visibility: hidden;
+}
+	.GIF6{
+  	z-index: 6;
+  	left: 75px;
+  	top: 50px;
+  	visibility: hidden;
+}
+	.GIF7{
+  	z-index: 7;
+  	left: 75px;
+  	top: 50px;
+  	visibility: hidden;
+}
+	.GIF8{
+  	z-index: 8;
+  	left: 120px;
+  	top: 30px;
+  	visibility: hidden;
+}
+	.GIF9{
+  	z-index: 9;
+  	left: 120px;
+  	top: 50px;
+  	visibility: hidden;
+}
+	.GIF10{
+  	z-index: 10;
+  	left: 120px;
+  	top: 50px;
+  	visibility: hidden;
+}
+
+	.popcorn{
+	z-index: 16;
+  	left: 690px;
+  	top: 200px;
+  	visibility: visible;
+}
+
+	.screen{
+  	z-index: -1;
+  	left: 90px;
+  	top: 50px;
+  	visibility: visible;
+}
+
+</style>
+</head>
+<body>
+<img id = "screen" class="screen" src="screen.png" width="650 vmin">
+<img id = "popcorn" class="popcorn"src="popcorn.png" width="300 vmin">
+<img id = "tv" class="TV" src="TV.png" width="800 vmin">
+<img id = "1" class="GIF1" src="Gifs/at.gif" width="600 vmin">
+<img id = "2" class="GIF2" src="Gifs/simpson.gif" width="500 vmin">
+<img id = "3" class="GIF3" src="Gifs/madmax.gif" width="550 vmin">
+<img id = "4" class="GIF4" src="Gifs/futurama.gif" width="500 vmin">
+<img id = "5" class="GIF5" src="Gifs/food.gif" width="600 vmin">
+<img id = "6" class="GIF6" src="Gifs/news.gif" width="600 vmin">
+<img id = "7" class="GIF7" src="Gifs/football.gif" width="600 vmin">
+<img id = "8" class="GIF8" src="Gifs/charlie.gif" width="475 vmin">
+<img id = "9" class="GIF9" src="Gifs/rickandmorty.gif" width="450 vmin">
+<img id = "10" class="GIF10" src="Gifs/nature.gif" width="600 vmin">
+
+<script type="text/javascript">
+
+var array = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+var integer = 0; 
+
+function type(event){
+	console.log(event.key)
+	document.getElementById(array[integer]).style.visibility = "visible";
+	integer = integer + 1;
+	document.onkeydown = checkKey;
+	console.log(event.keyCode)
+    console.log(integer)
+}
+
+document.onkeypress = type;
+
+//The .class selector selects elements with a specific class attribute.
+
+
+</script>
+</body>
+</html>

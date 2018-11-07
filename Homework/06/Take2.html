@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	
+</title>
+<style type="text/css">
+		
+
+.TV{
+ 	 z-index: 1000000000;
+}
+.GIF1{
+  	z-index: 1;
+  	left: 80px;
+  	top: 50px;
+
+}
+
+</style>
+</head>
+<body>
+	<img id = "tv" class="TV" src="TV.png" width="800 vmin">
+	<img id = "gif" class="GIF1" src="Gifs/at.gif" width="600 vmin">
+
+<script type="text/javascript">
+		function checkKey(e) {
+		arr = ["Gifs/simpson.gif", "Gifs/madmax.gif"];
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up arrow
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+        document.getElementById("gif").src = "Gifs/simpson.gif";
+        console.log(document.getElementById("gif"));
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+    }
+
+}
+document.onkeypress = checkKey;
+
+
+
+</script>
+</body>
+</html>
